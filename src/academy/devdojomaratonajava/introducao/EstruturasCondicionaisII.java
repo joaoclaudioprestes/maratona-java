@@ -100,7 +100,7 @@ public class EstruturasCondicionaisII {
 
         double valorCarro = 50349;
 
-        for (int parcela = 1; parcela <= valorCarro ; parcela++) {
+        /*for (int parcela = 1; parcela <= valorCarro ; parcela++) {
             double valorParcela= valorCarro / parcela;
 
             if (valorParcela >= 1900) {
@@ -108,6 +108,16 @@ public class EstruturasCondicionaisII {
             } else {
                 break;
             }
+        } */
+
+        for (int parcela = (int) valorCarro; parcela >= 1 ; parcela--) {
+            double valorParcela = valorCarro / parcela;
+
+            if (valorParcela < 1000) {
+                continue;
+            }
+
+            System.out.println("Parcela ["+parcela+"]: R$ "+ valorParcela);
         }
     }
 }
