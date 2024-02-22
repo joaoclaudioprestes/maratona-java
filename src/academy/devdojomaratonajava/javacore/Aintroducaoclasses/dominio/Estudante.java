@@ -5,5 +5,4 @@ public class Estudante {
    public int idade;
    public char sexo;
 
-
 }
