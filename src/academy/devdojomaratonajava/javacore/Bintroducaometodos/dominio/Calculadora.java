@@ -29,4 +29,21 @@ public class Calculadora {
         System.out.println("Number2: " + number2);
 
     }
+
+    public void somaArray(int[] numbers) {
+        int soma = 0;
+        for (int num : numbers) {
+            soma += num;
+        }
+        System.out.println(soma);
+    }
+
+    public void somaVarArgs(int... numbers) {
+        int soma = 0;
+        for (int num : numbers) {
+            soma += num;
+        }
+        System.out.println(soma);
+    }
+
 }
