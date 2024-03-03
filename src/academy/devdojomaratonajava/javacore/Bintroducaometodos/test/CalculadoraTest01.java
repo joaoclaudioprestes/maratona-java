@@ -2,9 +2,11 @@ package academy.devdojomaratonajava.javacore.Bintroducaometodos.test;
 
 import academy.devdojomaratonajava.javacore.Bintroducaometodos.dominio.Calculadora;
 
-public class CalculadoraTest01 {
+public class CalculadoraTest01
+{
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         Calculadora calcular = new Calculadora();
 
         System.out.println("---- Soma ----");
